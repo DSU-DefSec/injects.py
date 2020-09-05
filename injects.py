@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta, timezone
 from json import load, dump, dumps
-from os.path import dirname, exists
+from os import getcwd
+from os.path import dirname, exists, realpath, join
 from sys import argv as sys_args
 from time import sleep
 
@@ -18,15 +19,15 @@ if not standalone:
     else:
         try:
             specific = int(sys_args[1])
+            print(f"Posting only inject #{specific}")
         except ValueError:
             specific = -1
 
-dir = dirname(__file__)
-
-injects = load(open(dir + "/injects.json", 'r'))
-config = load(open(dir + "/config.json", 'r'))
-if exists(dir + "/status.json"):
-    status = load(open(dir + "/state.json", 'r'))
+dir = realpath(join(getcwd(), dirname(__file__)))
+injects = load(open(join(dir, "injects.json")))
+config = load(open(join(dir, "config.json")))
+if specific == -1 and exists(join(dir, "state.json")):
+    status = load(open(join(dir, "state.json")))
 else:
     status = {"last_sent": -1}
 
@@ -68,11 +69,11 @@ for inject_number, inject in enumerate(injects["injects"]):
                 "color": 16711680,
                 "author": {
                     "name": f"Inject #{inject_number}",
-                    "icon_url": "https://cdn.discordapp.com/attachments/406863862751690752/751889394910232626/assignment_late-24px.svg"
+                    "icon_url": "https://icon-library.net/images/icon-new/icon-new-23.jpg"
                 },
                 "footer": {
                     "text": "Due",
-                    "icon_url": "https://media.discordapp.net/attachments/406863862751690752/751888201668624435/defseclogo.png?width=677&height=677"
+                    "icon_url": "https://defsec.club/defsec.png"
                 },
                 "timestamp": datetime.strptime(inject["due"], '%Y-%m-%d %H:%M:%S').replace(
                     tzinfo=local_timezone).isoformat()

@@ -2,4 +2,4 @@ venv
 .idea
 
 config.json
-status.json
+state.json

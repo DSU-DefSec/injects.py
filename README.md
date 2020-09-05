@@ -1,8 +1,9 @@
 # injects.py
 Simple script to auto post injects to discord and scoring engine
 
-## Configs:
+![Example](https://raw.githubusercontent.com/DSU-DefSec/injects.py/master/example.png)
 
+## Configs:
 #### injects.json:
 ```json
 {
@@ -12,8 +13,7 @@ Simple script to auto post injects to discord and scoring engine
       "desc": "Description of inject",
       "post": "yyyy-mm-dd hh:mm:ss",
       "due": "2020-09-05 16:00:00"
-    },
-    { ... }
+    }
   ]
 }
 ```
@@ -23,9 +23,10 @@ Simple script to auto post injects to discord and scoring engine
   "discord": "https://discordapp.com/api/webhooks/##################/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "discord_content": "Whatever you want in the discord message content (not the embed)",
   "engine": "http://scoring.engine/to/be/implemented/later/webhook.html",
-  "close_enough": 10 // Seconds before post time that inject can be sent (if 0 then could be sent a bit late)
+  "close_enough": 10
 }
 ```
+`close_enough` is max seconds before the post time that it can post it. (Ignored by all and specific)
 
 
 ## Usage:
