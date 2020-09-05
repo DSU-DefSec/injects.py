@@ -1,5 +1,6 @@
 {
   "discord": "https://discordapp.com/api/webhooks/751887402020110416/dHt7kh43-NDKRJf78Ad1c52sN6WYxLvDPMLWgwjYcVrQHaJScHixM0r6evF9ovIDj-CL",
   "discord_content": "<@&751889648229548134>",
-  "engine": ""
+  "engine": "",
+  "close_enough": 10
 }
