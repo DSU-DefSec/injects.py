@@ -1,5 +1,6 @@
 {
   "discord": "https://discordapp.com/api/webhooks/##################/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "discord_content": "<@&##################>",
-  "engine": "http://scoring.engine/to/be/implemented/later/webhook.html"
+  "engine": "http://scoring.engine/to/be/implemented/later/webhook.html",
+  "close_enough": 10
 }

@@ -1,12 +1,6 @@
 {
   "injects": [
     {
-      "name": "Example Inject",
-      "desc": "This is the template inject and will not be executed",
-      "post": "2020-09-05 15:00:00",
-      "due": "2020-09-05 16:00:00"
-    },
-    {
       "name": "Network Scan",
       "desc": "Detailed scan of the network and list of all boxes",
       "post": "2020-09-05 15:00:00",
@@ -23,6 +17,12 @@
       "desc": "CEO's son wants mc server",
       "post": "2020-09-05 17:00:00",
       "due": "2020-09-05 18:00:00"
+    },
+    {
+      "name": "Fail2Ban",
+      "desc": "I heard about this fancy new fail2ban thing. Set it up on all systems or explain why you cant",
+      "post": "2020-09-05 18:00:00",
+      "due": "2020-09-05 19:00:00"
     }
   ]
 }
