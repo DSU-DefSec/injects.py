@@ -2,3 +2,4 @@ venv
 .idea
 
 webhook.json
+status.json
