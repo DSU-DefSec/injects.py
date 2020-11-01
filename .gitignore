@@ -1,5 +1,6 @@
 venv
 .idea
 
+injects.json
 config.json
 state.json
