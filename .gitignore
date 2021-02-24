@@ -1,5 +1,6 @@
 venv
 .idea
+old_injects
 
 injects.json
 config.json
