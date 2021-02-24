@@ -3,57 +3,57 @@
     {
       "name": "The competition has begun!",
       "desc": "Have fun and dont get hacked!\n",
-      "post": "2020-10-31 13:00:00",
-      "due": "2020-10-31 17:00:00",
+      "post": "13:00",
+      "due": "17:00",
       "priority": "info"
     },
     {
       "name": "Network Diagram",
       "desc": "We would like a detailed scan of our network and a network diagram listing all active services on all boxes. Make it look nice. If its nice enough I'll post it on the company's Instagram and tag you.",
-      "post": "2020-10-31 13:00:00",
-      "due": "2020-10-31 16:00:00",
+      "post": "13:00",
+      "due": "16:00",
       "priority": "medium"
     },
     {
       "name": "Password Policy",
       "desc": "We have a new company password policy. Please enforce a minimum password length of 10 characters on all company servers.",
-      "post": "2020-10-31 13:30:00",
-      "due": "2020-10-31 15:00:00",
+      "post": "13:30",
+      "due": "15:00",
       "priority": "medium"
     },
     {
       "name": "Mysterious USB",
       "desc": "Alex from accounting found a mysterious USB next to one of the utility boxes outside our office building. It only had one file on it called [`unsuspicious.file`](https://cdn.discordapp.com/attachments/751887248156393526/772155477182251008/unsuspicious.file) that wont open. We think it might be connected to some company secrets that were leaked a few weeks ago. Let us know if you find any useful information or if you find out who's USB it is. Check it out and tell us what you find and how you found it!",
-      "post": "2020-10-31 14:00:00",
-      "due": "2020-10-31 14:30:00",
+      "post": "14:00",
+      "due": "14:30",
       "priority": "medium"
     },
     {
       "name": "Fail2Ban",
       "desc": "I heard about this fancy new fail2ban thing. What is it? How does it work? Set it up on all applicable systems.\nConfigure fail2ban on all applicable systems to ban for 5minutes after 3 failed login attempts.",
-      "post": "2020-10-31 14:30:00",
-      "due": "2020-10-31 16:30:00",
+      "post": "14:30",
+      "due": "16:30",
       "priority": "high"
     },
     {
       "name": "Fired!",
       "desc": "We found out that one of our administrators has been selling company secrets to The Pumpkin Patch (one of our major competitors) and he is fired effective **immediately**. Please remove `pumpshaw` and their access from all systems and terminate the account as soon as possible. There is no telling what they will do when we fire him at 2:45pm Central.",
-      "post": "2020-10-31 14:30:00",
-      "due": "2020-10-31 15:00:00",
+      "post": "14:30",
+      "due": "15:00",
       "priority": "critical"
     },
     {
       "name": "New user",
       "desc": "We have hired a new admin to replace pumpshaw. Please add `witch` as an admin on all of our systems.",
-      "post": "2020-10-31 15:00:00",
-      "due": "2020-10-31 15:30:00",
+      "post": "15:00",
+      "due": "15:30",
       "priority": "high"
     },
     {
       "name": "Spectre?",
       "desc": "I was listening to the news recently and heard some big shot tech guy throwing around a bunch of words I didnt really understand. They were talking about some malware called Spectre. What is Spectre? It sounded like its really good malware because it works on everything. Does it effect any of our computers? If so can you fid them so they wont get hacked by this scary malware. I really didnt understand what they were talking about but it sounded bad.",
-      "post": "2020-10-31 15:00:00",
-      "due": "2020-10-31 16:30:00",
+      "post": "15:00",
+      "due": "16:30",
       "priority": "low"
     }
   ]

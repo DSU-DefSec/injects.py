@@ -1,6 +1,7 @@
 {
-  "discord": "https://discordapp.com/api/webhooks/##################/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "discord": "https://discord.com/api/webhooks/##################/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "discord_content": "<@&##################>",
-  "engine": "http://scoring.engine/to/be/implemented/later/webhook.html",
-  "close_enough": 10
+  "close_enough": 2,
+  "comp_date": "2021-02-12",
+  "comp_tz": "US/Central"
 }
