@@ -1,6 +1,7 @@
 {
-  "discord": "https://discordapp.com/api/webhooks/751887402020110416/dHt7kh43-NDKRJf78Ad1c52sN6WYxLvDPMLWgwjYcVrQHaJScHixM0r6evF9ovIDj-CL",
-  "discord_content": "<@&751889648229548134>",
-  "engine": "",
-  "close_enough": 10
+  "discord": "https://discord.com/api/webhooks/##################/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "discord_content": "@everyone",
+  "close_enough": 2,
+  "comp_date": "2021-02-27",
+  "comp_tz": "US/Central"
 }

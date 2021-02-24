@@ -1,28 +1,46 @@
 {
   "injects": [
     {
-      "name": "Network Scan",
-      "desc": "Detailed scan of the network and list of all boxes",
-      "post": "2020-09-05 15:00:00",
-      "due": "2020-09-05 16:00:00"
+      "name": "The competition has begun!",
+      "desc": "Submit your injects by posting them in your team's channel and ping <@&751889648229548134>. They must be in PDF form. All late injects will be worth 50% of original points.",
+      "post": "19:00",
+      "due": "21:00",
+      "priority": "info"
     },
     {
-      "name": "Network Diagram",
-      "desc": "Create a detailed network diagram",
-      "post": "2020-09-05 16:00:00",
-      "due": "2020-09-05 17:00:00"
+      "name": "New Network Diagram",
+      "desc": "I have a feeling the network diagram we gave you is inaccurate. Scan the network using your favorite tool. Create a network diagram that documents all the boxes. Include their system name, IP addresses, list of services running, and list of open ports.",
+      "post": "19:00",
+      "due": "20:30",
+      "priority": "critical"
     },
     {
-      "name": "Minecraft Server",
-      "desc": "CEO's son wants mc server",
-      "post": "2020-09-05 17:00:00",
-      "due": "2020-09-05 18:00:00"
+      "name": "New Sudo Vulnerability",
+      "desc": "I heard there’s a new Linux vulnerability out there called CVE-2021-3156. Are we vulnerable to this? Write a memo that tells me what this sudo vulnerability is and what systems it affects. I want to know how bad this vulnerability really is and how seriously we need to take it. If this is a critical vulnerability, patch all the affected systems. If not, explain in your memo why you have chosen not to patch the systems.",
+      "post": "19:30",
+      "due": "20:00",
+      "priority": "critical"
     },
     {
-      "name": "Fail2Ban",
-      "desc": "I heard about this fancy new fail2ban thing. Set it up on all systems or explain why you cant",
-      "post": "2020-09-05 18:00:00",
-      "due": "2020-09-05 19:00:00"
+      "name": "Certifications for Employees",
+      "desc": "We were able to scrounge up $5000 to pay for a couple employees to get training and take a certification test. We want the most employees possible to get the best security certification(s). Create a professional report detailing your recommendations for which security certification(s) we should recommend employees go after and how many people we could get trained/certified assuming they pass on their first test. Keep in mind that different employees might benefit from different certifications. For example, a cloud administrator might find a cloud computing certificate more useful than an ethical hacking certificate.",
+      "post": "20:00",
+      "due": "21:00",
+      "priority": "critical"
+    },
+    {
+      "name": "Harassing Emails",
+      "desc": "I heard from HR that multiple employees have come forward claiming the user Randall has been sending them harassing emails. Go through the email servers and find out if that’s true. Send me a memo with your findings and any screenshots you take. Someone’s job is on the line so take this seriously!",
+      "post": "20:00",
+      "due": "20:30",
+      "priority": "critical"
+    },
+    {
+      "name": "Block Social Media",
+      "desc": "I’m sick and tired of seeing people on social media instead of working. Block users from accessing the following websites: facebook.com, pinterest.com, imgur.com, twitter.com, youtube.com, reddit.com, twitch.tv. Send me a memo with screenshots of the new firewall configuration.",
+      "post": "20:30",
+      "due": "21:00",
+      "priority": "critical"
     }
   ]
 }
