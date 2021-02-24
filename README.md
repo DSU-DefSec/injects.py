@@ -11,22 +11,30 @@ Simple script to auto post injects to discord and scoring engine
     {
       "name": "Name of inject",
       "desc": "Description of inject",
-      "post": "yyyy-mm-dd hh:mm:ss",
-      "due": "2020-09-05 16:00:00"
+      "post": "hh:mm",
+      "due": "16:00",
+      "priority": "medium"
     }
   ]
 }
 ```
+
+`priority` from `critical, high, medium, low, info` changes color of embed
+
 #### config.json:
+
 ```json
 {
   "discord": "https://discordapp.com/api/webhooks/##################/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "discord_content": "Whatever you want in the discord message content (not the embed)",
-  "engine": "http://scoring.engine/to/be/implemented/later/webhook.html",
-  "close_enough": 10
+  "close_enough": 2,
+  "comp_date": "2021-02-12",
+  "comp_tz": "US/Central"
 }
 ```
+
 `close_enough` is max seconds before the post time that it can post it. (Ignored by all and specific)
+`comp_tz` timezone name the competition will be in
 
 
 ## Usage:

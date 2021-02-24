@@ -30,7 +30,7 @@
     },
     {
       "name": "Fail2Ban",
-      "desc": "I heard about this fancy new fail2ban thing. What is it? How does it work? Set it up on all applicable systems.\nConfigure fail2ban on all applicable systems to ban for 5minutes after 3 failed login attempts.",
+      "desc": "I heard about this fancy new fail2ban thing. What is it? How does it work? Set it up on all applicable systems.\nConfigure fail2ban on all applicable systems to ban for 5 minutes after 3 failed login attempts.",
       "post": "14:30",
       "due": "16:30",
       "priority": "high"
